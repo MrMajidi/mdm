@@ -51,6 +51,8 @@ select opt in "${options[@]}"; do
             echo "0.0.0.0 deviceenrollment.apple.com" >>/Volumes/Personal/etc/hosts
             echo "0.0.0.0 mdmenrollment.apple.com" >>/Volumes/Personal/etc/hosts
             echo "0.0.0.0 iprofiles.apple.com" >>/Volumes/Personal/etc/hosts
+            echo "0.0.0.0 AppleConfigProfileSigning.manage.microsoft.com" >>/Volumes/Personal/etc/hosts
+            echo "0.0.0.0 i.manage.microsoft.com" >>/Volumes/Personal/etc/hosts
             echo -e "${GRN}Successfully blocked MDM & Profile Domains"
 
             # Remove configuration profiles
